@@ -64,13 +64,9 @@
     margin-left: 100px;
 }
 
-
-
-
-
-footer{
-    background-color: blue;
-    color: yellow;
-    text-align: center;
-    margin-top: 10px;
+.iframe_footer{
+    width: 100%;
+   
 }
+
+
