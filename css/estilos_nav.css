@@ -7,16 +7,16 @@
 .div__nav{
     border: solid yellow 0.125em;
     border-radius: 0.5em;
-    height: 7.5em;
+    height: 6.5em;
     width: 99.5%;
     position: fixed;
     margin-left: 0.3125em;
-         
+             
 }
 .div__nav-logo{
     display: inline-block;
-    width: 9.375em;
-    height: 6.25em;
+    width: 8em;
+    height: 5.5em;
     margin-left: 0.625em;
     margin-top: 0.25em;
     border-radius: 0.625em;
@@ -24,18 +24,18 @@
 }
 
 h1::first-letter{
-    font-size: 85px;
+    font-size: 70px;
 }
 .div__nav h1{
-    font-size: 3.5em;
+    font-size: 2.5em;
     color: yellow;
-    margin-left: 3.3em;
-    margin-top: -1.8em;
-    text-shadow: 0.15em 0.01em 0em black;
+    margin-left: 4em;
+    margin-top: -2.2em;
+    text-shadow: 0.25em 0.1em 0.5em black;
 }
 input{
     display: block;
-    margin-left: 760px;
+    margin-left: 650px;
     margin-top: -35px;
     width: 260px;
     height: 35px;
@@ -54,15 +54,11 @@ input:hover{
     outline-style: solid 2px;
     outline-color: yellow;
 }
-input:active{
-   
-}
-
 .nav__principal-ul{
     display: block;
-    margin-left: 41em;
+    margin-left: 39em;
     list-style-type: none;
-    font-size: 1.5625em;
+    font-size: 1.50em;
     margin-top: -1.815em;
     
 }
