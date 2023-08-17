@@ -59,8 +59,9 @@
 input{
     display: inline-block;
     margin: 0 auto;
-    border-color: yellow;
-    width: 40px;
+    border: solid yellow 1px;
+    width: 35px;
+    border-radius: 3px;
 }
 .div_caja_img_etiqueta{
     text-align: center;
