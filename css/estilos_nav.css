@@ -14,61 +14,83 @@
     
 }
 .div__nav-logo{
-    display: inline-block;
-    width: 8em;
-    height: 5.5em;
-    margin-left: 0.625em;
-    margin-top: 0.25em;
-    border-radius: 0.625em;
+    display: block;
+    width: 130px;
+    height: 90px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 15px;
    
 }
+
 
 h1::first-letter{
     font-size: 70px;
 }
 .div__nav h1{
-    font-size: 2.5em;
+    display: block;
+    font-size: 45px;
     color: yellow;
-    margin-left: 4em;
-    margin-top: -2.2em;
+    margin-left: 50px;
     text-shadow: 0.25em 0.1em 0.5em black;
 }
-input{
+.div__nav-h1 {
     display: block;
-    margin-left: 650px;
-    margin-top: -35px;
-    width: 260px;
-    height: 35px;
-    border: solid yellow 0.5px;
-    
+    width: 420px;
+    margin-left: 110px;
+    margin-top: -90px;
+
 }
+
+.div__nav-input-container {
+    display: block;
+    margin-top: -45px;
+}
+
+.div__nav-input {
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: -165px;
+    color: yellow;
+    width: 240px;
+    height: 40px;
+    border: solid yellow 0.5px;
+    border-radius: 20px ;
+}
+
 input::placeholder{
     color: yellow;
-    opacity: 0.7;
+    opacity: 0.8;
+    padding-left: 10px;
     
 }
 input:hover{
-    opacity: 1;
-    color: yellow;
-    font-size: 20px;
-    outline-style: solid 2px;
+    opacity: 1;  
+    outline-style: solid 1px;
     outline-color: yellow;
-}
+}    
+
 .nav__principal-ul{
     display: block;
     margin-left: 39em;
     list-style-type: none;
     font-size: 1.50em;
-    margin-top: -1.815em;
-    
+    margin-top: -50px;
 }
 .nav__principal-ul li{
     color: yellow;
     display: inline-block;
-    margin-left: 1.8em;
-      
+    margin-left: 1.5em;
+    margin-top: 15px;
+    
 }
 li:hover{
-    color: darkblue;
-    transition: all 2s;
+    color: white;
+    transition: all 0.8s;
+}
+
+i {
+    padding: 5px;
+    text-align: right;
+
 }
