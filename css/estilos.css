@@ -2,12 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(11, 0, 112);
+    /* background-color: rgb(11, 0, 112); */
 }
 .iframe_nav{
     width: 100%;
     border-style: none;
     position: fixed;
+    height: 80px;
     
 }
 .aside{
@@ -20,7 +21,7 @@
     height: 500px;
     margin-top: 150px;
     margin-left: 30px;
-    border: solid 2px yellow;
+    border: solid 2px;
        
 }
 
@@ -29,13 +30,12 @@
     height: 200px;
     margin-left: 100px;
     margin-top: 40px;
-    color: yellow;
     font-size: 20px;
 }
 .aside__div-ul{
     margin-left: 115px;
     margin-top: -30px;
-    color: yellow;
+    
     font-size: 20px;
 
 }
@@ -52,7 +52,7 @@
     display: inline-block;
     width: 300px;
     height: 300px;
-    color: yellow;
+    
     margin-left: 170px;
     margin-top: 250px;
     font-size: 20px;

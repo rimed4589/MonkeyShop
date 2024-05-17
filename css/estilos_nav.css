@@ -2,58 +2,69 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(11, 0, 112);
+    font-family: serif;
+    background-color: rgba(24, 16, 92, 0.845);
 }
-.div__nav{
-    border: solid yellow 0.125em;
-    border-radius: 0.5em;
-    height: 6.5em;
-    width: 99.5%;
-    position: fixed;
-    margin-left: 0.3125em;
+.container{
+    display: flex;  
+    align-items: center;
+}
+.nav-container{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    width: 100vw;
+    gap: 10px;
+    justify-content: space-between;
+    box-sizing: border-box;
     
 }
-.div__nav-logo{
-    display: block;
-    width: 130px;
-    height: 90px;
-    margin-left: 10px;
-    margin-top: 5px;
-    border-radius: 15px;
-   
-}
+.container-search i{
+    display: inline-block;
+    font-size: 25px;
+    color:yellow;
+    opacity: 0.8;
+    margin-right: 0;
 
+}
+.container-h1{
+    
+    flex: 1;
+
+}
+.logo{
+    display: block;
+    width: 70px;
+    height: 60px;
+    margin-left: 20px;
+    border-radius: 15px;
+    flex: 1;
+}
 
 h1::first-letter{
-    font-size: 70px;
+    font-size: 30px;
 }
-.div__nav h1{
+.container h1{
     display: block;
-    font-size: 45px;
+    font-size: 20px;
     color: yellow;
-    margin-left: 50px;
     text-shadow: 0.25em 0.1em 0.5em black;
-}
-.div__nav-h1 {
-    display: block;
-    width: 420px;
-    margin-left: 110px;
-    margin-top: -90px;
-
+    
 }
 
-.div__nav-input-container {
-    display: block;
-    margin-top: -45px;
+.container-input {
+    flex: 1;
+    justify-content: center;
+    
+    
 }
 
-.div__nav-input {
+.container-input input {
     display: inline-block;
-    margin-left: 600px;
-    margin-top: -165px;
     color: yellow;
     width: 240px;
     height: 40px;
+    padding-left: 10px;
     border: solid yellow 0.5px;
     border-radius: 20px ;
 }
@@ -68,29 +79,34 @@ input:hover{
     opacity: 1;  
     outline-style: solid 1px;
     outline-color: yellow;
+}
+input::content{
+    padding-left: 5px;
+}
+.container-ul{
+    flex: 1;  
+    display: flex;
+    flex-shrink: 1;
+    overflow: hidden;
+    
 }    
-
+  
 .nav__principal-ul{
-    display: block;
-    margin-left: 39em;
+    flex-shrink: 0;
     list-style-type: none;
-    font-size: 1.50em;
-    margin-top: -50px;
+    font-size: 20px;
+        
 }
 .nav__principal-ul li{
     color: yellow;
-    display: inline-block;
-    margin-left: 1.5em;
-    margin-top: 15px;
-    
+    display: inline-block; 
 }
 li:hover{
     color: white;
-    transition: all 0.8s;
+    transition: all 0.5s;
 }
 
 i {
     padding: 5px;
     text-align: right;
-
 }
