@@ -2,11 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(11, 0, 112);
-    color: yellow;
 }
 .iframe_nav{
     width: 100%;
+    height: 80px;
     border-style: none;
     position: fixed;
 }
@@ -20,7 +19,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border: solid yellow 2px;
+    border: dotted 0.5px;
     
 }
 
@@ -38,6 +37,7 @@
     margin-left: 5px;
     padding-top: 10px;
     
+    
 }
 
 .div__bloque2{
@@ -49,21 +49,26 @@
 .No_Pagina{
     display: inline-block;
     margin-left: 800px;
+    margin-bottom: 50px;
          
 }
 
-.iframe_footer{
-    width: 100%;
-    
-}
 input{
     display: inline-block;
     margin: 0 auto;
-    border: solid yellow 1px;
+    border: solid black 1px;
     width: 35px;
+    height: 18px;
     border-radius: 3px;
 }
 .div_caja_img_etiqueta{
     text-align: center;
     
+}
+a{
+    padding: 5px;
+}
+.iframe_footer{
+    width: 100%;
+    height: 60px;
 }
