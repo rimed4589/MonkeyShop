@@ -11,17 +11,48 @@
     <iframe class="iframe_nav" src="/pages/nav.html" frameborder="0"></iframe>    
 </header>
 <body>
-    <h2>Para Nosotros Tu Comentario es imortante</h2>
-    <div class="caja_comentario">
-        <input class="comentario" type="text">
+    <div class="flexContainer">
+        <div class="container">
+            <h1>Contacto</h1>
+            <div class="contact-info">
+                <h2>Redes Sociales</h2>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/tuempresa" target="_blank">Facebook</a>
+                    <a href="https://www.twitter.com/tuempresa" target="_blank">Twitter</a>
+                    <a href="https://www.instagram.com/tuempresa" target="_blank">Instagram</a>
+                </div>
+                <h2>Teléfono</h2>
+                <p>(849) 639-2464</p>
+            </div>
+            <div class="comments-section">
+                <h2>Deja tu Comentario</h2>
+                <form id="commentForm">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comentario:</label>
+                        <textarea id="comment" name="comment" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+                <div class="comments-grid">
+                    <!-- Aquí se mostrarán los comentarios enviados -->
+                </div>
+            </div>
+        </div>
+        <script src="/js/scripts.js"></script>
+
+
+        <footer>
+            <iframe class="iframe_footer" src="/pages/footer.html" frameborder="0"></iframe>
+        </footer>
     </div>
-    <input class="btn" type="submit" value="Enviar">
-
-
-
-    <footer>
-        <iframe class="iframe_footer" src="/pages/footer.html" frameborder="0"></iframe>
-    </footer>
 </body>
 
 </html>
