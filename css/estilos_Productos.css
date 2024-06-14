@@ -2,68 +2,114 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(11, 0, 112);
-    color: yellow;
+}
+header{
+    display:inline;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color:  #f0f0f0;;
+   
+}
+.flexContainer{
+   margin: 100px 5px 5px 5px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    border: inset 3px;
+    display: block;
 }
 .iframe_nav{
     width: 100%;
+    height: 80px;
     border-style: none;
     position: fixed;
-}
-.div_bloque1{
-    display: inline-block;
-    height: 500px;
-    box-sizing: border-box;
     
 }
+h2 {
+   text-align: center;   
+   border: inset 5px;
+   padding: 5px;
+    
+}
+.div_bloque1{
+    box-sizing: border-box;
+    text-align: center;
+}
+
 .div_caja_img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border: solid yellow 2px;
-    
+    border: inset 3px;
 }
 
 .div_caja{
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     margin-left: 50px;
     display: inline-block;
-    margin-top: 150px;
+    margin-top: 50px;
 }
-
 
 .div_caja_b{
     display: inline-block;
     margin-left: 5px;
-    padding-top: 10px;
-    
+    padding-top: 20px;
 }
 
-.div__bloque2{
-    display: inline-block;
-    height: 700px; 
-    
-}
 
 .No_Pagina{
     display: inline-block;
-    margin-left: 800px;
+    margin-top: 100px;
+    margin-bottom: 50px;
          
 }
 
-.iframe_footer{
-    width: 100%;
-    
-}
 input{
     display: inline-block;
     margin: 0 auto;
-    border: solid yellow 1px;
+    border: solid black 1px;
     width: 35px;
+    height: 18px;
     border-radius: 3px;
 }
 .div_caja_img_etiqueta{
     text-align: center;
     
+}
+a{
+    padding: 5px;
+}
+.iframe_footer{
+    width: 100%;
+    height: 60px;
+}
+
+
+
+@media (max-width: 768px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        align-content: center;
+        justify-content: center;
+        
+    }
+   
+   header:hover {
+        .iframe_nav {
+            display:inline;
+            height: 250px;
+           transition: 2s ease-in-out;
+           
+        }
+       
+   }
+
 }
