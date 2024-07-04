@@ -92,9 +92,7 @@ header{
     padding: 50px;
     justify-content: center;
     align-items: center;
-    
     margin-bottom: 50px;
-    
     
 }
 .container-section__p{
@@ -128,19 +126,17 @@ footer{
 .iframe_footer{
     width: 100vw;
     height: 50px;
-   
-    
-    
 }
 
 @media (max-width: 768px) {
     body{
         display: flex;
         flex-direction: column;
-        overflow-x: hidden;
         align-content: center;
         justify-content: center;
-        
+        overflow-x: hidden;
+        font-size: 12px;
+
     }
    
    header:hover {
@@ -149,62 +145,73 @@ footer{
             height: 250px;
            transition: 2s ease-in-out;
            
-        }
-       
-   }
-    
+        }     
+    }
+   
     .container {
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 480px;
-        border: solid;
-        margin: 5px;
-        box-sizing: border-box; 
-        border-style: none;    
-    
-    }
-    .portada img{
-        height: 250px;
-        width: 250px;
-    }
-    .portada__img1:hover .portada__img2:hover .portada__img3:hover {
-        width: 300px;
-        height: 300px;
+        flex-direction: column;  
+        overflow-x: hidden;
+        margin-bottom: 0;
+       
     }
     .container-section__principal{
-       
-        margin-top: 90px;
-        max-width: 470px;  
-        font-weight: 900;
-        font-size: 15px;
+        margin-top: 0px;
+        max-width: 99vw;  
+        font-weight: 700;
+        font-size: 11px;
         padding: 5px;
         border: inset 5px;
         background-color:whitesmoke;
     }
-
     .portada {
-        height: 1000px;
+        height: auto;
         margin: 2px;
-        box-sizing: border-box;
         position: relative;
-        max-width: 470px;
+        width: 100%;
+        max-width: 95vw;
         flex-direction: column;
         align-items: center;
         margin-top: -30px;
+        box-sizing: content-box;
+        overflow: hidden;
+       
     } 
-   
+    .portada img{
+       width: 90%;
+       height: auto;
+       display: block; 
+       margin: 0 auto;
+    }
+    
+    .portada__img1:hover {
+        width: 90vw;
+        height: 250px;
+        
+    }
+    .portada__img2:hover {
+        width: 90vw;
+        height: 250px;
+        
+    }
+    .portada__img3:hover {
+        width: 90vw;
+        height: 250px;
+        
+    }
+
     .container-section{
-        margin-top: 5px;
-        width: 470px;
+        margin-top: 0px;
+        max-width: 100vw;
         border: inset 5px;
+        
     }
 
     .container-section__p{
-        width: 400px;
-        border: inset 5px;
-        padding: 10px;
-        
+        font-size: 10px;
+        text-align: center;
+        width: 90vw;
+        margin-bottom: 0;
     }
 
     footer{

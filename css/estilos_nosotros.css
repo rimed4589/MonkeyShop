@@ -60,6 +60,9 @@ footer{
 .iframe_footer{
     width: 100vw;
     height: 50px;
+    position: fixed;
+    bottom: 0;
+
 }
 
 
