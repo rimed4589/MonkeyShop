@@ -5,7 +5,7 @@
 
 }
 body{
-    background-color:  #f0f0f0;;
+    background-color:  #f0f0f0;
 }
 .iframe_nav{
     width: 100%;
@@ -66,11 +66,31 @@ footer{
 
 @media (max-width: 768px) {
     body{
+        
         display: flex;
         flex-direction: column;
-        overflow-x: hidden;
+        
         align-content: center;
         justify-content: center;
+        overflow-x: hidden;
+
+    }
+    .flexContainer{
+        overflow-x: hidden;
+        margin-bottom: 100px;
+    }
+    .div_vision{
+        width: 250px;
+        margin: 50px 5px auto;
+        text-align:center;
+       
+    }
+    .div_mision{
+        margin-top: 50px;
+        padding: 20px;
+        width: 250px;
+        padding: 10px;
+        text-align: center;
         
     }
    
