@@ -18,7 +18,7 @@
 }
 
 .navbar .logo {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .logo {
@@ -58,8 +58,8 @@
     display: none;
 }
 img {
-    width: 80px;
-    height: 60px;
+    width: 70px;
+    height: 50px;
     display: inline-block;
     border-radius: 10px;
 }

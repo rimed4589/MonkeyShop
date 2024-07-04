@@ -24,8 +24,8 @@ body{
     display: block;
 }
 .iframe_nav{
-    width: 100%;
-    height: 80px;
+    width: 100vw;
+    height: 70px;
     border-style: none;
     position: fixed;
     
@@ -34,6 +34,7 @@ h2 {
    text-align: center;   
    border: inset 5px;
    padding: 5px;
+   
     
 }
 .div_bloque1{
@@ -83,11 +84,18 @@ input{
     
 }
 a{
-    padding: 5px;
+    padding: 2px;
+}
+
+footer{
+    margin-top: 30px;
 }
 .iframe_footer{
     width: 100%;
-    height: 60px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    
 }
 
 
