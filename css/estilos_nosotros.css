@@ -6,11 +6,13 @@
 }
 body{
     background-color:  #f0f0f0;
+    
 }
 .iframe_nav{
     width: 100%;
     height: 70px;
-        
+    position: fixed;
+
 }
 header{
     overflow: hidden;
@@ -24,10 +26,20 @@ header{
     border: inset 5px;
     
 }
+.flexContainer {
+    height: 100vh;
 
+}
 h2{
     border: inset 5px;
-    margin-top: 25px;
+    margin-top: 80px;
+    display: block;
+}
+img {
+    width: 200px;
+    height: 150px;
+    margin-top: 50px;
+    border-radius: 20px;
 }
 .div_nosotros{
     width: 800px;
@@ -48,23 +60,22 @@ h3{
     width: 800px;
     padding: 10px;
     text-align: center;
+    margin-bottom: 50px;
+    
     
 }
 p {
     margin-top: 20px;
+    
 }
-footer{   
-    bottom: 0;
-    position: fixed;
-}
+
 .iframe_footer{
-    width: 100vw;
-    height: 50px;
-    position: fixed;
+    width: 100%;
+    height: 40px;
+    display: block;
     bottom: 0;
 
 }
-
 
 
 @media (max-width: 768px) {
@@ -73,15 +84,21 @@ footer{
         flex-direction: column;
         align-content: center;
         justify-content: center;
-        overflow-x: hidden;
+        
 
     }
     .flexContainer{
-        overflow-x: hidden;
-        margin-bottom: 100px;
         font-size: 12px;
-        padding: 0 5px;
         text-align: center;
+        height: auto;
+        height: 100vh;
+        overflow-x: hidden;
+        
+    }
+    img {
+        width: 40vw;
+        height: auto;
+        margin-top: 10px;
     }
     .div_vision{
         width: 85vw;
@@ -94,7 +111,7 @@ footer{
         padding: 10px;
         width: 85vw;
         text-align: center;
-        
+           
     }
    
     h2 {
@@ -103,6 +120,7 @@ footer{
     h3 {
         font-size: 15px;
     }
+   
    header:hover {
         .iframe_nav {
             display:inline;
@@ -113,5 +131,5 @@ footer{
        
    }
 
-
+   
 }

@@ -9,7 +9,8 @@ document.getElementById('commentForm').addEventListener('submit', function(event
     commentCard.innerHTML = `
         <h3>${name}</h3>
         <p>${comment}</p>
-        <small>${email}</small>
+        <br>
+        <small><b>${email}</b></small>
     `;
 
     document.querySelector('.comments-grid').appendChild(commentCard);
