@@ -12,13 +12,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    
-    
+    position: relative;   
 }
 
 .navbar .logo {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .logo {
@@ -58,8 +56,8 @@
     display: none;
 }
 img {
-    width: 80px;
-    height: 60px;
+    width: 70px;
+    height: 50px;
     display: inline-block;
     border-radius: 10px;
 }
@@ -68,13 +66,13 @@ img {
     .navbar .nav-links {
         position: fixed;
         height: 100vh;
-        width: 90%;
+        width: 80%;
         top: 0;
         left: -100%;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        transition: left 2s ease-in-out;
+        transition: left 1s ease-in-out;
         z-index: 1000;
     }
 
@@ -90,6 +88,7 @@ img {
     .menu-toggle:hover ~ .nav-links {
         left: 0;
         transition: left 1s ease-in-out;
+        
     }
     
 }
