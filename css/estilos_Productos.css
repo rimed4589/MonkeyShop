@@ -18,13 +18,14 @@ body{
    margin: 100px 5px 5px 5px; 
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     text-align: center;
     align-items: center;
     border: inset 5px;
     height: 90vh;
     gap: 100px;
-   
+    
+    overflow-x: hidden;
 }
 .iframe_nav{
     width: 100vw;
@@ -44,6 +45,11 @@ h2 {
 .div_bloque1{
     box-sizing: border-box;
     text-align: center;
+    
+}
+.div__bloque2{
+    box-sizing: border-box;
+    text-align: center; 
     
 }
 
