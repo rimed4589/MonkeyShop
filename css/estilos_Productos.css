@@ -10,18 +10,20 @@ header{
 body{
     display: flex;
     flex-direction: column;
-    background-color:  #f0f0f0;;
+    background-color:  #f0f0f0;
+    
    
 }
 .flexContainer{
    margin: 100px 5px 5px 5px; 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
-    border: inset 3px;
-    display: block;
+    border: inset 5px;
+    height: 90vh;
+    gap: 100px;
    
 }
 .iframe_nav{
@@ -35,12 +37,14 @@ h2 {
    text-align: center;   
    border: inset 5px;
    padding: 5px;
+   margin-bottom: 50px;
    
     
 }
 .div_bloque1{
     box-sizing: border-box;
     text-align: center;
+    
 }
 
 .div_caja_img{
@@ -89,13 +93,13 @@ a{
     padding: 1px;
 }
 
-footer{
-    margin-top: 30px;
-}
 .iframe_footer{
     width: 100%;
     height: 40px;
     display: block;
+    bottom: 0;
+    
+    
 }
 
 
@@ -111,8 +115,10 @@ footer{
     }
     .flexContainer {
         width: 95vw;
+        height: auto;
+        
     }
-   
+    
    .div_caja {
    
     width: 200px;
