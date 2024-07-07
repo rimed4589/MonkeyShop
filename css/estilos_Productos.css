@@ -11,21 +11,20 @@ body{
     display: flex;
     flex-direction: column;
     background-color:  #f0f0f0;
-    
+    justify-content: center;
    
 }
 .flexContainer{
    margin: 100px 5px 5px 5px; 
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     text-align: center;
     align-items: center;
     border: inset 5px;
-    height: 90vh;
     gap: 100px;
-    
-    overflow-x: hidden;
+    display: block;
+    height: auto;
+    overflow: hidden;
 }
 .iframe_nav{
     width: 100vw;
@@ -38,7 +37,7 @@ h2 {
    text-align: center;   
    border: inset 5px;
    padding: 5px;
-   margin-bottom: 50px;
+   margin-bottom: 20px;
    
     
 }
@@ -77,10 +76,10 @@ h2 {
 
 
 .No_Pagina{
-    display: inline-block;
     margin-top: 100px;
     margin-bottom: 50px;
-         
+    display: block;
+    
 }
 
 input{
