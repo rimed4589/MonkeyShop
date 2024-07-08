@@ -23,7 +23,7 @@ body{
     border: inset 5px;
     gap: 100px;
     display: block;
-    height: auto;
+    height: 95vh;
     overflow: hidden;
 }
 .iframe_nav{
