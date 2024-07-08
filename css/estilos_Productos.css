@@ -23,7 +23,8 @@ body{
     border: inset 5px;
     gap: 100px;
     display: block;
-    height: 95vh;
+    min-height: 95vh;
+    height: auto;
     overflow: hidden;
 }
 .iframe_nav{
@@ -76,7 +77,7 @@ h2 {
 
 
 .No_Pagina{
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 50px;
     display: block;
     text-align: center;
