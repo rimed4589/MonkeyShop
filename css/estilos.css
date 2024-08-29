@@ -36,5 +36,12 @@
 
 /*===================SLIDER DE IMAGENES==========================*/
 .carousel-inner {
-    max-height:30rem !important;
+    height:39rem !important;
+    
+}
+
+.carousel-inner .carousel-item {
+    height: 100vh;
+    width: 100%;
+
 }
