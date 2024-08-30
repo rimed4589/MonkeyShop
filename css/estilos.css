@@ -1,5 +1,16 @@
 /*===============Propiedades Globales================*/
+.yellow{
+    color: yellow !important;
+}
 
+.seccion-oscura {
+    background-color: rgba(10, 2, 83, 0.938);
+    color: white;
+}
+.titulo {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
 
 
 
@@ -8,7 +19,7 @@
 
 .navbar {
     background-color: rgba(10, 2, 83, 0.938);
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -17,10 +28,11 @@
     height: 60px;
     border-radius: 50%;
 }
-.navbar a,ul {
+.nav-item a {
     color: yellow !important;
     
 }
+
 
 .navbar .navbar-toggler{
     background: yellow;
@@ -36,12 +48,40 @@
 
 /*===================SLIDER DE IMAGENES==========================*/
 .carousel-inner {
-    height:39rem !important;
+    height:35rem !important;
     
 }
 
 .carousel-inner .carousel-item {
     height: 100vh;
     width: 100%;
+
+}
+
+.seccion-hero {
+    
+}
+.bienvenida-container-img {
+    display: flex;
+    align-self: center;
+}
+
+.bienvenida-img{
+    margin: 0 auto !important;
+    border-radius: 50%;
+}
+
+
+
+@media ( max-width: 760px) {
+    .seccion-productos {
+        width: 90% !important;
+        
+    }
+
+    
+
+
+
 
 }
