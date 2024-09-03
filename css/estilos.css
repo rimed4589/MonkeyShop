@@ -63,7 +63,17 @@
 }
 .bienvenida-container-img {
     display: flex;
-    align-self: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    min-width: 400px;
+    border: solid black 2px;
+}
+
+.bienvenida-container-img img {
+    width: 200px;
+    height: 300px;
+    
 }
 
 .bienvenida-img{
