@@ -12,6 +12,10 @@
     margin: 10px 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 
 
 
@@ -83,18 +87,162 @@
     margin: 0 auto;
 }
 
-.container-btn-productos button i {
-    
-}
-
 .container-btn-productos {
     display: flex;
     padding: 20px;
 }
 
+
+/*=================SECCION MISION============================*/
+
+.mision {
+    margin-bottom: 400px;
+}
+
+
+/*=================SECCION CONTACTO============================*/
+
+
+.seccion-contacto {
+    padding: 50px;
+
+}
+
+.seccion-contacto-container {
+    background-color: #ccc; 
+    min-width: max-content;
+}
+
+.seccion-contacto-form {
+    margin-top: -400px;
+    padding: 30px;
+    
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info h2 {
+    color: #555;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.comments-section h2 {
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea{
+    resize: none;
+}
+
+button {
+    display: block;
+    width: 25%;
+    padding: 10px;
+    margin: 0 auto !important;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.comments-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.comment-card {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    word-wrap: break-word;
+    
+}
+
+.iframe_footer{
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    display: block;
+}
+
+/*=================PANTALLAS PEQUEñAS============================*/
+
+
 @media ( max-width: 760px) {
     .seccion-productos {
         width: 90% !important;
+
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        overflow-x: hidden;
+        
+    }
+    
+   
+   header:hover {
+        .iframe_nav {
+            display:inline;
+            height: 250px;
+           transition: 2s ease-in-out;
+           
+        }
+       
+   }
+   footer{
+    margin-top: 100px;
+   }
+    .iframe_footer{
+        display: block;
+        bottom: 0;
         
     }
 
