@@ -1,17 +1,27 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: rgba(24, 16, 92, 0.845);
+* {
+    background-color: rgba(10, 2, 83, 0.938);
+    color: yellow;
+    overflow: hidden;
 }
-.footer{
-    color:yellow;
-    font-size: 12px;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-self: center; 
+
+.iconos-redes i {
+    font-size: 30px;
+    margin-left: 20px;
+    padding: 10px;
+    border: none;
+
+}
+
+.iconos-redes i:hover {
+    color: white;
+    transition: all 2ms ease-in-out;
+} 
+
+.derechos-autor {
     text-align: center;
+    padding-bottom: 50px;
+    height: 50px;
+    margin-bottom: 50px;
+
+
 }

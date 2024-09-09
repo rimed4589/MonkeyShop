@@ -19,53 +19,29 @@
     <!--========================================================== -->
     <!--                     BARRA DE NAVEGACION                   -->
     <!--========================================================== -->
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
-            <img src="./images/logoFinal.jpg" alt="" class="logo">
-            <a class="navbar-brand ms-3 fs-3" href="#">
-                <h1 class="yellow fs-3">Monkey Shop</h1>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav  mb-2 mb-lg-0 nav-ul">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contactos</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <header>
+        <iframe src="./pages/nav.html" frameborder="0"></iframe>
+    </header>
 
 
     <!--========================================================== -->
     <!--                     SLIDER IMAGENES                       -->
     <!--========================================================== -->
+    <h1 class="pb-3 mb-3 fs-2 text-center">Bienvenido a Monkey Shop</h1>
 
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
-                <img src="./imagen.png" class="d-block w-100" alt="slide1">
+                <img src="./images/slider/slider1.jpg" class="d-block w-100" alt="slide1">
+
             </div>
 
             <div class="carousel-item" data-bs-interval="3000">
-                <img src="./imagen.jpg" class="d-block w-100" alt="slide2">
+                <img src="./images/slider/slide2.jpg" class="d-block w-100" alt="slide2">
             </div>
 
             <div class="carousel-item" data-bs-interval="3000">
-                <img src="./slide3.jpg" class="d-block w-100" alt="slide3">
+                <img src="./images/slider/slider3.jpg" class="d-block w-100" alt="slide3">
             </div>
 
         </div>
@@ -81,79 +57,38 @@
     <!--========================================================== -->
     <!--                   SECCION PRINCIPAL HERO                  -->
     <!--========================================================== -->
-
-    <section class="seccion-hero mt-5">
-        <div class="row fs-5">
-            <div class="col-lg-6 col-md-6 fs-6 p-5 ">
-                <div class="container">
-                    <h2 class="mb-5 text-center">Bienvenido a Monkey Shop</h2>
-                    <p>En <b>Monkey Shop </b>, cada visita es una experiencia única. Ofrecemos cortes de cabello
-                        modernos y
-                        clásicos, afeitados tradicionales con navaja, y recortes de barba precisos, todo en un ambiente
-                        elegante y acogedor.
-                    </p>
-
-                    <p class="text-center fw-bold p-3 fs-5">Nuestros Servicios:</p>
-                    <ul class="">
-                        <li>Cortes de Cabello: Adaptados a tu estilo personal.</li>
-                        <li>Afeitado Tradicional: Con toallas calientes y productos de calidad.</li>
-                        <li>Recortes de Barba: Para mantener tu look impecable.</li>
-                        <li>Tratamientos Capilares: Para revitalizar tu cabello.</li>
-                    </ul>
-
-                    <p class="text-center p-4">
-                    <h5 class="text-center fw-bold fs-5">Reserva Tu Cita</h3> <br>
-                        Visítanos y transforma tu estilo con el toque profesional que mereces. Reserva tu cita hoy mismo
-                        y disfruta del mejor servicio de barbería en la ciudad. Contáctanos, Para más información o
-                        reservas, no dudes en contactarnos. <br>
-                        <p class="text-center fw-bold">¡Te esperamos!</p>
-                        </p>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 bienvenida-container-img">
-                <img src="./images/slide2.jpg" alt="logo" class="w-50 bienvenida-img">
-            </div>
-        </div>
-    </section>
-
-    <!--========================================================== -->
-    <!--                   SECCION PRODUCTOS                       -->
-    <!--========================================================== -->
-    <section class="seccion-productos seccion-oscura w-100 mt-3">
+    <section class="seccion-hero w-100 mt-3 mb-4 pb-5">
 
         <div class="container-fluid">
-            <div class="row seccion-productos container-fluid">
-                <div class="col-lg-6 col-md-6 container-fluid col-productos p-5">
-                    <h3 class="titulo text-center">Productos para Barbería</h3>
-                    <p>
-                        <span>En <b>Monkey Shop</b>, ofrecemos una selección premium de productos para el
-                            cuidado
-                            personal y
-                            barbería:</span> <br><br>
-                    <ul>
+            <div class="row seccion-hero container-fluid">
+                <div class="col-lg-6   container-fluid col-productos p-5 ">
+                    <h2 class=" text-center pt-5">Productos para Barbería</h2>
+                    <p class="pt-5">
+                    <h3 class="titulo">En <b>Monkey Shop</b>, ofrecemos una selección premium de productos para el
+                        cuidado personal y barbería: </h3><br><br>
+                    <ul class="fs-5">
                         <li>Máquinas de Afeitar: Precisión y durabilidad en cada uso.</li>
                         <li>Kits Personales: Todo lo esencial para tu rutina de cuidado.</li>
                         <li>Gillettes: Navajas para un afeitado suave y cómodo.</li>
                         <li>Crema de Afeitar: Fórmulas cremosas para un afeitado sin irritaciones.</li>
                         <li>Alcohol: Desinfecta y cuida tu piel post-afeitado.</li>
                     </ul>
-                    <span>
-                        <b>Compra y Asesoría:</b><br>
+                    <h3 class="titulo mt-5"><b>Compra y Asesoría:</b></h3><br>
 
-                        Visita nuestra tienda para encontrar productos de calidad que mejoren tu rutina de cuidado.
-                        <br> Para cualquier consulta, estamos aquí para ayudarte.
-                    </span>
+                    <p class="fs-5">Visita nuestra tienda para encontrar productos de calidad que mejoren tu rutina de cuidado.
+                        <br> Para cualquier consulta, estamos aquí para ayudarte.</p>
+
                     </p>
 
                 </div>
-                <div class="col-lg-6 col-md-6  container-fluid collage-productos p-5 text-center">
-                    <img src="./images/collage.jpg" alt="collage" class="w-50 img-fluid">
+                <div class="col-lg-6  container-fluid collage-productos p-5 text-center">
+                    <img src="./images/collage.jpg" alt="collage" class="w-75 img-fluid">
                 </div>
             </div>
         </div>
 
-        <a href="" class="container-btn-productos">
-            <button type="button" class="btn btn-light">
+        <a href="" class="container-btn-hero">
+            <button type="button" class="btn btn-primary">
                 Ver Mas
                 <i class="bi bi-arrow-right-circle-fill"></i>
             </button>
@@ -162,103 +97,16 @@
 
     </section>
 
-    <!--========================================================== -->
-    <!--                   SOBRE NOSOTROS                          -->
-    <!--========================================================== -->
-    <section class="container fs-5 mb-5">
-        <div class="Container mb-5">
-
-            <div class="row container p-5 d-flex justify-content-center">
-                <h2 class="text-center mb-5">Sobre Nosotros</h2>
-                <img src="../images/logoFinal.jpg" alt="logo" class="img-fluid w-25 text-center rounded-circle">
-            </div>
-
-            <!-- VISION -->
-            <div class="row container p-5 text-center">
-                <h3 class="mb-5">Vision</h3>
-                <p>
-                    Somos una empresa que se dedica a crear productos de calidad para el cuidado del cabello. Nuestra
-                    misión es ayudarte a lucir un
-                    cabello saludable, brillante y hermoso. Nuestros productos están elaborados con ingredientes
-                    naturales y respetuosos con el medio
-                    ambiente. Queremos que te sientas bien con tu cabello y con tu planeta.1 En MonkeyShop, creemos que
-                    el cabello es una
-                    expresión de tu personalidad y estilo. Por eso, te ofrecemos una variedad de productos para el
-                    cuidado del cabello que se adaptan
-                    a tus necesidades y preferencias. Nuestros productos están formulados con ingredientes de alta
-                    calidad y tecnología innovadora.
-                    Nuestro objetivo es que tengas un cabello sano, fuerte y bonito.2 MonkeyShop es una empresa que
-                    nació con la pasión
-                    por el cabello. Nos encanta crear productos que realcen la belleza natural de tu cabello y lo
-                    protejan de los agentes externos.
-                    Nuestros productos están hechos con extractos vegetales y aceites esenciales que nutren, hidratan y
-                    reparan tu cabello.
-                </p>
-            </div>
-
-            <!-- MISION   -->
-            <div class="row container p-5 text-center mision">
-                <h3 class="mb-5">Mision</h3>
-                <p>
-                    Nuestra visión es ser una empresa líder en el mercado de productos para el cuidado del cabello,
-                    ofreciendo soluciones eficaces y asequibles que mejoren la salud y la belleza del cabello de
-                    nuestros clientes. Nos comprometemos a innovar continuamente, utilizando tecnología avanzada y
-                    ingredientes de alta calidad para desarrollar productos que se adapten a las necesidades específicas
-                    de cada tipo de cabello. A través de un enfoque centrado en el cliente, buscamos no solo satisfacer,
-                    sino superar las expectativas de nuestros consumidores, promoviendo la confianza y el bienestar en
-                    cada uso. Aspiramos a construir una marca reconocida por su excelencia y compromiso con la
-                    sostenibilidad, contribuyendo positivamente al entorno y a la comunidad.
-                </p>
-            </div>
-        </div>
-    </section>
 
     <!--========================================================== -->
-    <!--                   SOBRE CONTACTANOS                       -->
+    <!--                   PIE DE PAGINA                           -->
     <!--========================================================== -->
+    <footer>
+        <iframe src="./pages/footer.html" frameborder="0" class="pie-pagina "></iframe>
+    </footer>
 
-    <section class="seccion-oscura seccion-contacto mt-5">
-        <div class="container w-50 text-bg-light seccion-contacto-container mt-5">
-            <div class="container seccion-contacto-form d-flex flex-column">
-                <h1 class="p-3">Contacto</h1>
-                <div class="contact-info">
-                    <h2>Redes Sociales</h2>
-                    <div class="social-media">
-                        <a href="https://www.facebook.com/share/5PviBWh8uY6amRZE/?mibextid=qi2Omg"
-                            target="_blank">Facebook</a>
-                        <a href="https://www.instagram.com/keylin_ciprian?igsh=aWk2d3hncXdsODQ1"
-                            target="_blank">Instagram</a>
-                    </div>
-                    <h2>Teléfono</h2>
-                    <p>(849) 639-2464</p>
-                </div>
-                <div class="comments-section">
-                    <h2>Deja tu Comentario</h2>
-                    <form id="commentForm">
-                        <div class="form-group">
-                            <label for="name">Nombre:</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="comment">Comentario:</label>
-                            <textarea id="comment" name="comment" rows="4" required></textarea>
-                        </div>
-                        <button type="submit">Enviar</button>
-                    </form>
-                    <div class="comments-grid">
-                        <!-- Aquí se mostrarán los comentarios enviados -->
-                    </div>
-                </div>
 
-                <script src="../js/scripts.js"></script>
 
-            </div>
-        </div>
-    </section>
 
 
 
