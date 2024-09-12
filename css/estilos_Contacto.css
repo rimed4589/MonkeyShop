@@ -116,9 +116,11 @@ button:hover {
 }
 
 
+/*================PIE DE PAGINA============================*/
 .iframe_footer{
     width: 100%;
-    
+    min-height: 200px;
+    bottom: 0;
 
 }
 

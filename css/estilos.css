@@ -68,13 +68,10 @@ body {
 
 
 /*================PIE DE PAGINA============================*/
-footer {
-    width: 100%;
-
-}
 .pie-pagina {
+    width: 100%;
     min-height: 200px;
-    
+    bottom: 0;
 }
 
 /*=================PANTALLAS PEQUEñAS============================*/
