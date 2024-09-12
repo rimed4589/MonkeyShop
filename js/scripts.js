@@ -17,4 +17,7 @@ document.getElementById('commentForm').addEventListener('submit', function(event
 
     // Reset the form
     document.getElementById('commentForm').reset();
+    
 });
+
+

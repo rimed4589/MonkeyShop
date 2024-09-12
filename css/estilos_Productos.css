@@ -4,6 +4,47 @@
     margin-bottom: 0;   
 }
 
+
+
+
+/* Estilo para los divs de imágenes */
+/* Estilo para los divs de imágenes */
+.img-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*================PIE DE PAGINA============================*/
 .iframe_footer{
     width: 100%;
