@@ -1,9 +1,15 @@
 .iframe_nav {
     width: 100%;
+    
 }
+
+.iframe_nav:hover {
+    min-height: 300px;
+}
+
 .iframe_footer{
     width: 100%;
-    display: none;
+    margin-top: 250px;
     
     
     
