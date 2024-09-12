@@ -124,6 +124,7 @@ button:hover {
 
 }
 
+/*=================PANTALLAS PEQUEñAS============================*/
 @media (max-width: 768px) {
     body{
         display: flex;
