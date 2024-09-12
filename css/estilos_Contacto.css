@@ -6,8 +6,8 @@
 }
 .iframe_nav{
     width: 100%;
-    position: relative;
-    
+    height: 250px;
+    margin-bottom: 0;
 }
 
 body {
