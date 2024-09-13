@@ -20,7 +20,7 @@
     <!--                     BARRA DE NAVEGACION                   -->
     <!--========================================================== -->
     <header>
-        <iframe class="iframe_nav" src="./pages/nav.html" frameborder="0"></iframe>
+        <iframe class="iframe_nav" src="./pages/nav.php" frameborder="0"></iframe>
     </header>
 
 
@@ -105,7 +105,7 @@
     <!--                   PIE DE PAGINA                           -->
     <!--========================================================== -->
     <footer>
-        <iframe src="./pages/footer.html" frameborder="0" class="pie-pagina"></iframe>
+        <iframe src="./pages/footer.php" frameborder="0" class="pie-pagina"></iframe>
     </footer>
 
 
