@@ -9,7 +9,7 @@
     <title>Contacto </title>
 </head>
 <header>
-    <iframe class="iframe_nav" src="./nav.html" frameborder="0"></iframe>    
+    <iframe class="iframe_nav" src="./nav.php" frameborder="0"></iframe>    
 </header>
 <body>
     
@@ -51,7 +51,7 @@
 
     </div>
     <footer>
-        <iframe class="iframe_footer" src="footer.html" frameborder="0"></iframe>
+        <iframe class="iframe_footer" src="footer.php" frameborder="0"></iframe>
     </footer>
 </body>
 

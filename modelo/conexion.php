@@ -1,5 +1,5 @@
 <?php 
-    $conexion = new mysqli("localhost","root", "","cud_imagenes");
+    $conexion = new mysqli("localhost","root", "","crud_images");
 
     if($conexion) {
         echo"conexion exitosa";

@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
             <img src="../images/logoFinal.jpg" alt="" class="logo">
-            <a class="navbar-brand ms-3 fs-3" href="../index.html" target="_parent" rel="noopenner noreferrer">
+            <a class="navbar-brand ms-3 fs-3" href="../index.php" target="_parent" rel="noopenner noreferrer">
                 <h1 class="yellow fs-3">Monkey Shop</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -30,13 +30,13 @@
                         <a class="nav-link active" aria-current="page" href="../index.html" target="_parent">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./productos.html" target="_parent">Productos</a>
+                        <a class="nav-link" href="./productos.php" target="_parent">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./nosotros.html" target="_parent">Nosotros</a>
+                        <a class="nav-link" href="./nosotros.php" target="_parent">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html" target="_parent">Contactos</a>
+                        <a class="nav-link" href="./contacto.php" target="_parent">Contactos</a>
                     </li>
                 </ul>
             </div>

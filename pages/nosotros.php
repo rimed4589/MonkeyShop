@@ -14,7 +14,7 @@
     <title>Nosotros</title>
 </head>
 <header>
-    <iframe class="iframe_nav" src="./nav.html" frameborder="0"></iframe>
+    <iframe class="iframe_nav" src="./nav.php" frameborder="0"></iframe>
 </header>
 
 <body>
@@ -78,7 +78,7 @@
         </script>
 </body>
 <footer>
-    <iframe class="iframe_footer" src="footer.html" frameborder="0"></iframe>
+    <iframe class="iframe_footer" src="footer.php" frameborder="0"></iframe>
 </footer>
 
 </html>

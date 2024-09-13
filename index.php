@@ -89,7 +89,7 @@
             </div>
         </div>
 
-        <a href="./pages/productos.html" class="container-btn-hero" rel="noopenner noreferrer">
+        <a href="./pages/productos.php" class="container-btn-hero" rel="noopenner noreferrer">
             <button type="button" class="btn btn-primary">
                 Ver Mas
                 <i class="bi bi-arrow-right-circle-fill"></i>
